@@ -7,7 +7,7 @@ public class MainClass {
 
 	public static void main(String[] args) throws IOException, FileNotFoundException {
 		int frequency = 0;
-		BufferedReader br = new BufferedReader(new FileReader("./src/input"));
+		BufferedReader br = new BufferedReader(new FileReader("./input"));
 
 		try {
 			String frecuencyChange = br.readLine();
